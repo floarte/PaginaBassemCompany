@@ -1,4 +1,4 @@
-console.log("Página copada lista 🚀");
+console.log("Company Bassem Soilem 🚀");
 
 // Botón hero
 document.querySelectorAll(".btn").forEach(btn => {
@@ -23,3 +23,4 @@ const scrollFade = () => {
 
 window.addEventListener('scroll', scrollFade);
 window.addEventListener('load', scrollFade); // Para que algunos ya visibles se animen
+
