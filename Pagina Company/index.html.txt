@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Copada</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header fijo -->
+    <header>
+        <div class="container">
+            <h1>Mi Página Copada</h1>
+            <nav>
+                <a href="#inicio">Inicio</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#galeria">Galería</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section id="inicio" class="hero fade-in">
+        <div class="hero-text">
+            <h2>Bienvenida a mi sitio</h2>
+            <p>Editable, moderno y animado al scrollear.</p>
+            <a href="#contacto" class="btn">Contáctanos</a>
+        </div>
+        <div class="hero-img">
+            <img src="img/ejemplo1.jpg" alt="Imagen de ejemplo" class="fade-in">
+        </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios" class="section fade-in">
+        <h2>Nuestros Servicios</h2>
+        <div class="cards">
+            <div class="card fade-in">
+                <h3>Servicio 1</h3>
+                <p>Descripción breve del servicio 1.</p>
+            </div>
+            <div class="card fade-in">
+                <h3>Servicio 2</h3>
+                <p>Descripción breve del servicio 2.</p>
+            </div>
+            <div class="card fade-in">
+                <h3>Servicio 3</h3>
+                <p>Descripción breve del servicio 3.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galería -->
+    <section id="galeria" class="section fade-in">
+        <h2>Galería</h2>
+        <div class="gallery">
+            <img src="img/ejemplo1.jpg" alt="Ejemplo 1" class="fade-in">
+            <img src="img/ejemplo2.jpg" alt="Ejemplo 2" class="fade-in">
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="section fade-in">
+        <h2>Contacto</h2>
+        <form>
+            <input type="text" placeholder="Tu nombre">
+            <input type="email" placeholder="Tu email">
+            <textarea placeholder="Mensaje"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Mi Página Copada</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
