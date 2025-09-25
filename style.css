@@ -57,7 +57,7 @@ header nav a:hover {
     align-items: center;
     justify-content: center;
     padding: 120px 20px 60px; /* dejar espacio por header fijo */
-    background: #ffe6e0;
+    background: #000000;
     gap: 20px;
 }
 
@@ -79,7 +79,7 @@ header nav a:hover {
 .btn {
     display: inline-block;
     padding: 12px 25px;
-    background: #ff6f61;
+    background: #000000;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -87,7 +87,7 @@ header nav a:hover {
 }
 
 .btn:hover {
-    background: #e55a4e;
+    background: #000000;
     transform: scale(1.05);
 }
 
@@ -110,7 +110,7 @@ header nav a:hover {
 }
 
 .card {
-    background: #f4f4f4;
+    background: #000000;
     padding: 20px;
     border-radius: 10px;
     width: 250px;
@@ -152,7 +152,7 @@ form input, form textarea {
 
 form button {
     padding: 12px 25px;
-    background: #ff6f61;
+    background: #000000;
     color: white;
     border: none;
     border-radius: 5px;
@@ -161,13 +161,13 @@ form button {
 }
 
 form button:hover {
-    background: #e55a4e;
+    background: #000000;
     transform: scale(1.05);
 }
 
 /* Footer */
 footer {
-    background: #333;
+    background: #000000;
     color: white;
     text-align: center;
     padding: 20px;
@@ -184,6 +184,7 @@ footer {
     opacity: 1;
     transform: translateY(0);
 }
+
 
 
 
